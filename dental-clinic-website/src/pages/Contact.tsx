@@ -334,15 +334,16 @@ const Contact: React.FC = () => {
             <h2 className="text-2xl font-bold p-6 border-b">Find Us</h2>
             <div className="h-96 w-full">
               {/* Embed Google Map here */}
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4361.072863169836!2d72.52809017597923!3d23.006053079185378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85005ae957fb%3A0x1b73799de4fcdc29!2sAnant%20Dental%20Clinic%20%26%20Implant%20Centre!5e1!3m2!1sen!2sin!4v1747306126034!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4361.072863169836!2d72.52809017597923!3d23.006053079185378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85005ae957fb%3A0x1b73799de4fcdc29!2sAnant%20Dental%20Clinic%20%26%20Implant%20Centre!5e1!3m2!1sen!2sin!4v1747306126034!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
                 loading="lazy"
-                title="SmileCare Dental Clinic Location"
-              ></iframe>
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Anant Dental Clinic Location"
+              />
             </div>
           </div>
         </div>
